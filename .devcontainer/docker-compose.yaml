@@ -1,0 +1,14 @@
+# Managed by https://github.com/linkorb/repo-ansible. Manual changes will be overwritten.
+version: '3.8'
+
+services:
+  app:
+    build:
+      context: ../.
+      dockerfile: .devcontainer/Dockerfile
+      args:
+        # Optional Node.js version
+        NODE_VERSION: "lts/*"
+
+    volumes:
+      - ..:/app:cached

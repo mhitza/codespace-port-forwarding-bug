@@ -1,0 +1,17 @@
+{
+  "dockerComposeFile": "docker-compose.yaml",
+  "service": "app",
+  "workspaceFolder": "/app",
+
+  "hostRequirements": {
+      "cpus": 2,
+      "memory": "8gb",
+      "storage": "32gb"
+  },
+
+  "customizations": {
+      "vscode": { }
+  },
+  "forwardPorts": [ 80 ],
+  "remoteUser": "root"
+}
