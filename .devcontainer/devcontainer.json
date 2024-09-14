@@ -13,5 +13,5 @@
       "vscode": { }
   },
   "forwardPorts": [ 80 ],
-  "remoteUser": "vscode"
+  "remoteUser": "root"
 }
